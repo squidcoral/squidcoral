@@ -1,3 +1,4 @@
+```python
 class SquidCoral:
     def __init__(self):
         self.name = "\U0001F991 Squid Coral \U0001F991"
@@ -26,3 +27,4 @@ print("TryHackMe:", squidcoral.thm)
 print("HackTheBox:", squidcoral.htb)
 print("Discord:", squidcoral.dsc)
 print("Skills:", squidcoral.skills)
+```
