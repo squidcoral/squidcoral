@@ -1,27 +1,28 @@
-┌──(loTus04㉿root)-[~/devlab]
-└─$ cat lotus04.py
-
-class lotus04:
-
-    def __info__(self):
+class SquidCoral:
+    def __init__(self):
+        self.name = "\U0001F991 Squid Coral \U0001F991"
         self.bio = '''
-            I am a young passionate about cybersecurity and IT in general.
-            I mainly program in python.
-            Dev of the well known W4SP Stealer'''
+        \U0001F30A I am a passionate explorer of the vast seas of cybersecurity and IT. 
+        My main programming language is Python, where I navigate the depths of code with precision and creativity.
+        Developer of the renowned W4SP Stealer, I dive into challenges head-on. \U0001F4A5'''
         self.age = 17
-
-    def  __social__(self):
-        self.thm = "https://tryhackme.com/p/loTus"
+        self.thm = "https://tryhackme.com/p/SquidCoral"
         self.htb = "https://app.hackthebox.com/profile/393384"
-        self.dsc = ("loTus01#0002", 1060811799949226004)
-    
-    def __dev__(self):
+        self.dsc = ("SquidCoral#0001", 1060811799949226004)
         self.skills = {
-            "python": "well known",
-            "bash": "known",
+            "python": "expert",
+            "bash": "proficient",
             "c++": "learning...",
             "php": "learning..."
         }
-        
-┌──(loTus04㉿root)-[~/devlab]
-└─$
+
+squidcoral = SquidCoral()
+
+# Accessing information
+print("Name:", squidcoral.name)
+print("Bio:", squidcoral.bio)
+print("Age:", squidcoral.age)
+print("TryHackMe:", squidcoral.thm)
+print("HackTheBox:", squidcoral.htb)
+print("Discord:", squidcoral.dsc)
+print("Skills:", squidcoral.skills)
