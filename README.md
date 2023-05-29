@@ -9,7 +9,13 @@ class SquidCoral:
         self.creation = True
 
     def bio(self):
-        return f"{self.name}: Passionate {self.passion} exploring the digital realm. Building innovative solutions with clean and efficient code. Constantly learning, collaborating, and creating."
+        return f"""
+        {self.name}: 
+        A Visionary {self.passion} Architect, unlocking the limitless potential of technology. 
+        Committed to crafting ingenious solutions with impeccable code craftsmanship. 
+        Embracing continuous learning, fostering collaboration, and shaping a future of innovation and impact. 
+        Let's build the extraordinary together!
+        """
 
 # Instantiate Squid Coral
 squid_coral = SquidCoral()
