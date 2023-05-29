@@ -1,4 +1,4 @@
-```
+```python
 # Ahoy! I'm Squidcoral, the Deep Ocean Developer! 🌊🦑
 
 class Squidcoral:
