@@ -1,5 +1,6 @@
-```# Ahoy! I'm Squidcoral, the Deep Ocean Developer! 🌊🦑
-Python
+```
+# Ahoy! I'm Squidcoral, the Deep Ocean Developer! 🌊🦑
+
 class Squidcoral:
     def __init__(self):
         self.name = "Squidcoral"
