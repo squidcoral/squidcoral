@@ -1,24 +1,27 @@
-class SquidCoral:
-    def __init__(self):
-        self.name = "Squid Coral"
-        self.passion = "coding"
-        self.innovation = True
-        self.clean_code = True
-        self.learning = True
-        self.collaboration = True
-        self.creation = True
+┌──(loTus04㉿root)-[~/devlab]
+└─$ cat lotus04.py
 
-    def bio(self):
-        return f"""
-        {self.name}: 
-        A Visionary {self.passion} Architect, unlocking the limitless potential of technology. 
-        Committed to crafting ingenious solutions with impeccable code craftsmanship. 
-        Embracing continuous learning, fostering collaboration, and shaping a future of innovation and impact. 
-        Let's build the extraordinary together!
-        """
+class lotus04:
 
-# Instantiate Squid Coral
-squid_coral = SquidCoral()
+    def __info__(self):
+        self.bio = '''
+            I am a young passionate about cybersecurity and IT in general.
+            I mainly program in python.
+            Dev of the well known W4SP Stealer'''
+        self.age = 17
 
-# Print bio
-print(squid_coral.bio())
+    def  __social__(self):
+        self.thm = "https://tryhackme.com/p/loTus"
+        self.htb = "https://app.hackthebox.com/profile/393384"
+        self.dsc = ("loTus01#0002", 1060811799949226004)
+    
+    def __dev__(self):
+        self.skills = {
+            "python": "well known",
+            "bash": "known",
+            "c++": "learning...",
+            "php": "learning..."
+        }
+        
+┌──(loTus04㉿root)-[~/devlab]
+└─$
